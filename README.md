@@ -3,7 +3,7 @@ The goal of this assignment is to create a machine learning model able to predic
 
 ## Main Steps
 - **Data loading**
-- **Exploratory Data Analysis (EDA)** (data visualization and analysis)
+- **Exploratory Data Analysis (EDA)** 
 - **Data transformation**
 - **Data cleaning**
 - **Feature engineering**
