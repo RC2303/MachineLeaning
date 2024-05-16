@@ -34,9 +34,6 @@ Based on the evaluation metrics shown in Figure 2, the logistic regression model
 
 *Figure 2: Evaluation metrics for the logistic regression model.*
 
-### Role of Random Forest in Bias Mitigation
-
-The bias towards female passengers in the dataset presented a challenge in accurately predicting survival rates. To mitigate this bias and improve the model's performance, Random Forest was employed as a key solution.
 
 ### Best Model Selection using Grid Search
 The grid search technique is used to find the best hyperparameters for a given machine learning model by exhaustively searching through a specified parameter grid and evaluating model performance using cross-validation.
@@ -44,6 +41,10 @@ The grid search technique is used to find the best hyperparameters for a given m
 ![Best Model Selection using Grid Search](https://github.com/RC2303/MachineLeaning/blob/main/Images/2.png)
 
 *Figure 3: Grid search results for selecting the best model. The dataset bias towards women is considered in the model selection process.*
+
+### Role of Random Forest in Bias Mitigation
+
+The bias towards female passengers in the dataset presented a challenge in accurately predicting survival rates. To mitigate this bias and improve the model's performance, Random Forest was employed as a key solution.
 
 Random Forest is well-suited for handling imbalanced datasets and biased data distributions. By constructing multiple decision trees and aggregating their predictions, Random Forest reduces the impact of data bias and improves the model's ability to generalize to unseen data.
 
